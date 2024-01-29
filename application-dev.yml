@@ -1,1 +1,17 @@
+spring:
+    application:
+      name: Config-Dev
 
+
+
+
+
+
+eureka:
+   instance:
+     perfer-ip-address: true
+   clint:
+     fetch-registry: true
+     register-with-eure: true
+     service-url: 
+        defaultZone: http://localhost:8761/eureka
